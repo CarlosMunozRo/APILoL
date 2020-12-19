@@ -15,6 +15,6 @@ var HttpClient = function() {
     }
 }
 var client = new HttpClient();
-client.get('https://euw1.api.riotgames.com/lol/summoner/v4/summoners/by-name/munyoz1?api_key=RGAPI-c99e8baa-f826-4750-bc01-7a1b34c169c6', function(response) {
+client.get('https://euw1.api.riotgames.com/lol/summoner/v4/summoners/by-name/munyoz1?api_key=(KEY DE RIOTAPI)', function(response) {
     console.log(response);
 });
