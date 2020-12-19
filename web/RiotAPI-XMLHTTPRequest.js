@@ -1,5 +1,5 @@
-require(['xmlhttprequest'], function (foo) {
-    var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+require(['xmlhttprequest'], function (xmlhttprequest) {
+    var XMLHttpRequest = require("xmlhttprequest");
 });
 
 var HttpClient = function() {
