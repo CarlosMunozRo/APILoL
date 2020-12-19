@@ -15,6 +15,6 @@ var HttpClient = function() {
     }
 }
 var client = new HttpClient();
-client.get('https://euw1.api.riotgames.com/lol/summoner/v4/summoners/by-name/munyoz1?api_key=(KEY DE RIOTAPI)', function(response) {
+client.get('https://euw1.api.riotgames.com/lol/summoner/v4/summoners/by-name/munyoz1?api_key=(KEY DE LA API)', function(response) {
     console.log(response);
 });
